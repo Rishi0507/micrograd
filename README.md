@@ -18,14 +18,14 @@ My goal was to understand how gradients flow actually flow, why topological sort
 - Why backpropagation is just the chain rule applied in reverse topological order
 - Why `zero_grad` exists and what happens if you forget it
 - Weight initialization; swapped random uniform for He initialization, better suited for ReLU activations
-- Gradients just flow equivalently when the '+' operation takes place. Might sound funny but didn't actually realise this while I was studying DL with pen and paper :D, and honestly - embarassing.
+- Gradients just flow equivalently when the '+' operation takes place. Might sound funny but didn't actually realise this while I was studying DL with pen and paper :D, and honestly - embarassing
 
 ---
 
 ## Changes from original
 
 - **He initialization** instead of random uniform for neuron weights
-- This resulted in faster convergence. On the toy dataset; 3 steps earlier. Will test on bigger datasets in future to see the more differences
+- This resulted in faster convergence. On the toy dataset; 3 steps earlier. Will test on bigger datasets in future to see more differences
 
 ---
 
